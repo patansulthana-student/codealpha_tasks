@@ -1,32 +1,38 @@
-# CodeAlpha Internship Projects
+# CodeAlpha Basic Chatbot
 
-## About This Repository
-This repository contains Python projects completed as part of my CodeAlpha Python Programming Internship.
+## Project Description
+This is a simple rule-based chatbot developed using Python. It interacts with users through the terminal and responds to basic messages.
 
-## Projects
+## Features
+- Responds to "hello"
+- Responds to "how are you"
+- Says goodbye when the user types "bye"
+- Handles unknown messages with a default response
+- Uses functions, loops, conditional statements, and user input
 
-### 1. Hangman Game
-A word-guessing game developed using Python. The player guesses letters to find the hidden word.
+## Technologies Used
+- Python
 
-**Technologies:** Python
+## How to Run
+1. Install Python.
+2. Open the project folder in VS Code.
+3. Run the following command in the terminal:
 
-### 2. Stock Portfolio Tracker
-A Python program that tracks stock investments, calculates portfolio values, and saves portfolio information in a CSV file.
+```bash
+python chatbot.py
+```
 
-**Technologies:** Python, CSV
+## Sample Interaction
+```text
+You: hello
+Bot: Hi!
 
-### 3. Basic Chatbot
-A simple rule-based chatbot that responds to user messages such as "hello", "how are you", and "bye".
+You: how are you
+Bot: I'm fine, thanks!
 
-**Technologies:** Python
-
-## Skills Practiced
-- Python programming
-- Conditional statements and loops
-- Functions and user input
-- File handling and CSV operations
-- Git and GitHub
+You: bye
+Bot: Goodbye!
+```
 
 ## Internship
-**Organization:** CodeAlpha  
-**Domain:** Python Programming
+CodeAlpha Python Programming Internship — Task 4: Basic Chatbot
